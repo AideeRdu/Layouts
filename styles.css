@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(62, 49, 49);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#web-logo {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+#web-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    padding-bottom: 0.5em;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: space-between;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.nav-link {
+    margin: 0.5em;
+    font-size: 1.5em;
+    border-right: 3px solid black;
+    padding-right: 0.5em;
+
+}
+
+.nav-buttons {
+    margin: 0.5em;
+    font-size: 1em;
+    border-right: 3px solid black;
+    padding-right: 0.5em;
+    background-color: rgb(67, 43, 43);
+    color: brown;
+    border: solid 1px black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#event-container {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+#event-container img,
+#event-container .overlay-text {
+    grid-area: 1 / 1;
+
+}
+
+.overlay-text {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#latte-image {
+    border-radius: 10em;
+    width: 30em;
+}
+
+#index-body {
+    flex: 1;
+    background-image: url('images/cafe-interior.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#info-text{
+    font-size: 2em;
+    color:white;
+}
