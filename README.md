@@ -9,3 +9,5 @@ Current events would be about:
     Karaoke Night
 Added at least 5 event cards
 Added About us
+Created event page with karaoke night as an example
+All images are stock images from pinterest
