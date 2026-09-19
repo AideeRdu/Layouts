@@ -7,3 +7,5 @@ Current events would be about:
     Comedy Night
     Jazz Night
     Karaoke Night
+Added at least 5 event cards
+Added About us
